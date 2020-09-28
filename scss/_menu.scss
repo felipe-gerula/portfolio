@@ -23,6 +23,7 @@
             //Line 1 : Rotate
             &:nth-child(1) {
             transform: rotate(45deg) translate(5px, 5px);
+            background-color: $primary-color;
             }       
     
             //Line 2 - Hide
@@ -33,6 +34,7 @@
             //Line 3 - Rotate
             &:nth-child(3) {
             transform: rotate(-45deg);
+            background-color: $primary-color;
             }
         }
     }
@@ -63,7 +65,7 @@
     &-nav{
         margin: 0;
         padding: 0;
-        background: darken($primary-color,5);
+        background: darken(#fff,5);
         list-style: none;
         transform: translate3d(0,100%,0);
         @include easeOut;
