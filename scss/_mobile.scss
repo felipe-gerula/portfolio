@@ -45,9 +45,10 @@
         transform: translate3d(100%,0,0);
 
         .portrait{
-            background: url();
-            width: 150px;
+             background: url("/dist/img/image-2.jpg");
+             width: 150px;
             height: 150px;
+            display: none;
         }
     }
 
@@ -75,5 +76,9 @@
 
     .projects{
         grid-template-columns: 1fr;
+    }
+
+    .boxes{
+        grid-template-columns: 1fr;  
     }
 }
